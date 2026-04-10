@@ -16,11 +16,9 @@
 
     <!-- Navbar -->
 
-<nav class="flex items-center justify-between px-12 py-6 bg-[#7FC2A3] shadow-sm sticky top-0 z-50">
-    <div class="flex items-center">
-        <div class="flex items-center">
-    <img src="assets/LOGO.png" alt="Penyets.an Logo" class="h-14 w-auto object-contain" />
-</div>
+<nav class="flex items-center justify-between px-6 md:px-12 py-6 bg-[#7FC2A3] shadow-sm sticky top-0 z-50">
+    <div class="flex flex-1 md:flex-none justify-center md:justify-start items-center">
+        <img src="assets/LOGO.png" alt="Penyets.an Logo" class="h-10 md:h-14 w-auto object-contain" />
     </div>
     
     <ul class="hidden md:flex gap-8 text-sm font-semibold text-gray-600">
@@ -31,7 +29,8 @@
         <li><a href="kontak.html" class="hover:text-[#1E513F] transition">Kontak</a></li>
     </ul>
 
-    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20ingin%20memesan%20makanan.%20Berikut%20detailnya%3A%0A%0ANama%3A%20%0AMenu%3A%20%0AAlamat%3A%20" class="bg-[#1E513F] text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-[#1E293B] transition shadow-md">
+    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20ingin%20memesan%20makanan.%20Berikut%20detailnya%3A%0A%0ANama%3A%20%0AMenu%3A%20%0AAlamat%3A%20" 
+       class="hidden md:block bg-[#1E513F] text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-[#1E293B] transition shadow-md">
         Pesan Sekarang
     </a>
 </nav>
@@ -83,33 +82,33 @@
                     Bergabunglah dengan jaringan utama Penyets.an kami. Kami menyediakan platform, resep, dan audiens—Anda membawa semangat untuk keunggulan.
                 </p>
 
-                <button class="mt-10 bg-[#1E513F] text-white px-10 py-5 rounded-2xl font-bold text-lg flex items-center shadow-2xl shadow-emerald-200 hover:-translate-y-1 transition duration-300 group">
-                    Gabung sebagai Mitra 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-3 transition-transform group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                </button>
-            </div>
+<div class="flex justify-center lg:justify-start">
+    <button class="mt-6 md:mt-10 bg-[#1E513F] text-white px-8 py-4 md:px-14 md:py-7 rounded-2xl md:rounded-[24px] font-bold md:font-black text-base md:text-xl flex items-center justify-center shadow-xl hover:scale-105 transition duration-300 group w-full md:w-auto">
+        <span>Gabung sebagai Mitra</span>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 ml-3 transition-transform group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+        </svg>
+    </button>
+</div>
 
-            <div class="w-full lg:w-1/2 relative">
-                <div class="relative aspect-square bg-[#008080] rounded-[60px] overflow-hidden shadow-2xl">
-                    <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=800" 
-                         alt="Franchise Illustration" 
-                         class="w-full h-full object-cover opacity-80">
-                    
-                    <div class="absolute bottom-10 left-[-20px] bg-white p-6 md:p-8 rounded-3xl shadow-2xl border-l-8 border-[#B21F1F] max-w-[320px] md:max-w-[400px]">
-                        <p class="text-[#222] font-bold text-lg md:text-xl leading-snug">
-                            "Kemitraan yang dibangun di atas rasa dan integritas."
-                        </p>
-                        <p class="mt-3 text-[#1E513F] font-extrabold text-xs tracking-widest uppercase">
-                            CEO, COLLABORATION RAHAYU BESRARI
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="absolute -z-10 top-10 -right-10 w-full h-full bg-red-100 rounded-[60px] blur-3xl opacity-30"></div>
-            </div>
-
+<div class="w-full lg:w-1/2 relative mt-12 md:mt-0">
+    <div class="relative aspect-square bg-[#008080] rounded-[32px] md:rounded-[60px] overflow-hidden shadow-2xl">
+        <img src="https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&q=80&w=800" 
+             alt="Franchise Illustration" 
+             class="w-full h-full object-cover opacity-80">
+        
+        <div class="absolute bottom-4 md:bottom-10 left-4 right-4 md:left-[-20px] md:right-auto bg-white p-5 md:p-8 rounded-[24px] md:rounded-3xl shadow-2xl border-l-4 md:border-l-8 border-[#FACC15] max-w-full md:max-w-[400px]">
+            <p class="text-[#222] font-bold text-base md:text-xl leading-snug">
+                "Kemitraan yang dibangun di atas rasa dan integritas."
+            </p>
+            <p class="mt-2 md:mt-3 text-[#1E513F] font-extrabold text-[10px] md:text-xs tracking-widest uppercase">
+                CEO, COLLABORATION RAHAYU BESRARI
+            </p>
+        </div>
+    </div>
+    
+    <div class="absolute -z-10 top-10 -right-10 w-full h-full bg-red-100 rounded-[32px] md:rounded-[60px] blur-3xl opacity-30 hidden md:block"></div>
+</div>
         </div>
     </section>
 
@@ -254,25 +253,27 @@
     </div>
 </section>
 
-<section class="w-full bg-white pb-24">
-    <div class="max-w-7xl mx-auto px-6 md:px-16">
-        <div class="bg-[#0F172A] rounded-[60px] p-12 md:p-24 text-center relative overflow-hidden shadow-2xl">
+<section class="w-full bg-white pb-12 md:pb-24">
+    <div class="max-w-7xl mx-auto px-4 md:px-16">
+        <div class="bg-[#0F172A] rounded-[32px] md:rounded-[60px] p-8 md:p-24 text-center relative overflow-hidden shadow-2xl">
             
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] bg-[#1E513F] blur-[120px] opacity-20"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full md:w-[600px] h-[200px] md:h-[300px] bg-[#1E513F] blur-[80px] md:blur-[120px] opacity-20"></div>
 
             <div class="relative z-10">
-                <h2 class="text-5xl md:text-7xl font-extrabold text-white mb-8 tracking-tighter">
-                    Siap untuk <span class="text-[#FACC15] italic underline decoration-white/20 underline-offset-8">Memimpin Pertunjukan?</span>
+                <h2 class="text-3xl md:text-7xl font-extrabold text-white mb-6 md:mb-8 tracking-tight">
+                    Siap untuk <br class="md:hidden"> 
+                    <span class="text-[#FACC15] italic underline decoration-white/20 underline-offset-4 md:underline-offset-8">Memimpin Pertunjukan?</span>
                 </h2>
                 
-                <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
+                <p class="text-gray-400 text-sm md:text-xl max-w-2xl mx-auto mb-8 md:mb-12 leading-relaxed">
                     Kami sedang mencari mitra visioner di lokasi perkotaan utama. Hubungi kami sekarang untuk mengamankan wilayah Anda.
                 </p>
 
                 <div class="flex justify-center">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ55EIUXmjizBA5GbFTqv3fZTL8oy9YugBAQd1NC8AtlDu3Q/viewform?usp=publish-editor" class="bg-[#1E513F] text-white px-12 py-6 rounded-2xl font-black text-xl flex items-center gap-4 hover:scale-105 transition duration-300 shadow-xl shadow-emerald-900/40">
-                        Gabung sebagai Mitra 
-                        <span class="material-symbols-outlined font-bold">rocket_launch</span>
+                    <a href="https://docs.google.com/forms/..." 
+                       class="bg-[#1E513F] text-white px-8 py-4 md:px-14 md:py-7 rounded-2xl md:rounded-[24px] font-bold md:font-black text-base md:text-xl flex items-center justify-center gap-3 md:gap-4 hover:scale-105 transition duration-300 shadow-xl w-full md:w-auto">
+                        <span>Gabung sebagai Mitra</span>
+                        <span class="material-symbols-outlined font-bold text-xl md:text-2xl">rocket_launch</span>
                     </a>
                 </div>
             </div>

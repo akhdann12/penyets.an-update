@@ -15,11 +15,9 @@
 
     <!-- Navbar -->
 
-<nav class="flex items-center justify-between px-12 py-6 bg-[#7FC2A3] shadow-sm sticky top-0 z-50">
-    <div class="flex items-center">
-        <div class="flex items-center">
-    <img src="assets/LOGO.png" alt="Penyets.an Logo" class="h-14 w-auto object-contain" />
-</div>
+<nav class="flex items-center justify-between px-6 md:px-12 py-6 bg-[#7FC2A3] shadow-sm sticky top-0 z-50">
+    <div class="flex flex-1 md:flex-none justify-center md:justify-start items-center">
+        <img src="assets/LOGO.png" alt="Penyets.an Logo" class="h-10 md:h-14 w-auto object-contain" />
     </div>
     
     <ul class="hidden md:flex gap-8 text-sm font-semibold text-gray-600">
@@ -30,7 +28,8 @@
         <li><a href="kontak.html" class="hover:text-[#1E513F] transition">Kontak</a></li>
     </ul>
 
-    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20ingin%20memesan%20makanan.%20Berikut%20detailnya%3A%0A%0ANama%3A%20%0AMenu%3A%20%0AAlamat%3A%20" class="bg-[#1E513F] text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-[#1E293B] transition shadow-md">
+    <a href="https://wa.me/6281234567890?text=Halo%20Admin%2C%20saya%20ingin%20memesan%20makanan.%20Berikut%20detailnya%3A%0A%0ANama%3A%20%0AMenu%3A%20%0AAlamat%3A%20" 
+       class="hidden md:block bg-[#1E513F] text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-[#1E293B] transition shadow-md">
         Pesan Sekarang
     </a>
 </nav>
@@ -69,23 +68,24 @@
     </div>
 </div>
 
-    <section class="max-w-7xl mx-auto px-6 py-10">
-        <div class="relative h-[400px] rounded-[40px] overflow-hidden flex items-center shadow-2xl">
-            <div class="absolute inset-0">
-                <img src="assets/penyetsan1.webp" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-r from-[#050B15] via-[#050B15]/90 to-transparent"></div>
-            </div>
-            <div class="relative z-10 px-16 space-y-4 max-w-2xl">
-                <h1 class="text-6xl font-extrabold text-white leading-tight">
-                    Daftar Menu <br>
-                    <span class="text-yellow-500 italic">Penyetsan</span>
-                </h1>
-                <p class="text-gray-300 text-lg leading-relaxed">
-                    Kelezatan autentik Indonesia dengan sentuhan modern. Temukan hidangan favorit Anda dari dapur kami yang penuh cita rasa.
-                </p>
-            </div>
+<section class="max-w-7xl mx-auto px-4 md:px-6 py-6 md:py-10">
+    <div class="relative min-h-[350px] md:h-[400px] rounded-[32px] md:rounded-[40px] overflow-hidden flex items-center shadow-2xl">
+        <div class="absolute inset-0">
+            <img src="assets/penyetsan1.webp" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-[#050B15] via-[#050B15]/90 to-transparent"></div>
         </div>
-    </section>
+        
+        <div class="relative z-10 px-8 md:px-16 py-12 space-y-4 max-w-2xl">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+                Daftar Menu <br>
+                <span class="text-yellow-500 italic">Penyetsan</span>
+            </h1>
+            <p class="text-gray-300 text-sm md:text-lg leading-relaxed max-w-sm md:max-w-none">
+                Kelezatan autentik Indonesia dengan sentuhan modern. Temukan hidangan favorit Anda dari dapur kami yang penuh cita rasa.
+            </p>
+        </div>
+    </div>
+</section>
 
 <section class="max-w-7xl mx-auto px-12 py-16">
 <div class="flex flex-col md:flex-row md:justify-between md:items-end gap-6 mb-12">
